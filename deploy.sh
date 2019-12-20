@@ -13,11 +13,14 @@ printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
 hugo
 
-cd public
-git add .
-COMMIT_MESSAGE="rebuilding site $(date)"
-if [ -n "$*" ]; then
-	COMMIT_MESSAGE="$*"
-fi
-git commit -m "${COMMIT_MESSAGE}"
-git push origin master
+pushd public
+	git add .
+	COMMIT_MESSAGE="rebuilding site $(date)"
+	if [ -n "$*" ]; then
+		COMMIT_MESSAGE="$*"
+	fi
+	git commit -m "${COMMIT_MESSAGE}"
+	git push origin master
+popd
+
+printf "\033[0;32mDeployment complete!\033[0m\n"
