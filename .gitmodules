@@ -2,3 +2,6 @@
 	path = public
 	url = git@github.com:gabrieleangeletti/gabrieleangeletti.github.io.git
 	branch = master
+[submodule "themes/liva-hugo"]
+	path = themes/liva-hugo
+	url = https://github.com/themefisher/liva-hugo.git
