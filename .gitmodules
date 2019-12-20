@@ -5,3 +5,6 @@
 [submodule "themes/liva-hugo"]
 	path = themes/liva-hugo
 	url = git@github.com:gabrieleangeletti/liva-hugo.git
+[submodule "public/gabrieleangeletti.github.io"]
+	path = public/gabrieleangeletti.github.io
+	url = git@github.com:gabrieleangeletti/gabrieleangeletti.github.io.git
