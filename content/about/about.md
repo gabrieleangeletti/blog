@@ -1,20 +1,20 @@
 ---
 title: "About Me"
-date: 2019-10-29T13:49:23+06:00
+date: 2019-12-22T18:00:00+01:00
 draft: false
-
-# image
 image: "images/author.png"
-
-# meta description
-description: "this is meta description"
-
-# type
+description: "description of me and the reasons behind this blog"
 type : "about"
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+Hi, I'm Gabriele! A software engineer and rock climbing addict on a journey to location independence.
 
-consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+I have been living in London for the past couple of years, working on self-driving cars at [Lyft](https://level5.lyft.com/). I was enjoying my life there, but I've always had this inner need to experience more of the beauty the world has to offer. That's why I left my job and embarked on this journey to become location independent. Or digital nomad, as they call it these days.
 
-nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+I was never a big traveller. I never left Europe until I was 26,  when I went to India. Then Indonesia this year, and after that it was a matter of time before I would leave everything and give it a shot.
+
+When not programming, I spend my time either climbing or searching for the best coffee out there. Also, you can often find me trying to cook some exotic asian dish.
+
+I use this blog to share thoughts and blabbering about software engineering topics. I hope you will learn something from it. If you do, I would love to hear about it.
+
+Also, I'm available for hiring!
