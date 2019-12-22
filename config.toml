@@ -84,7 +84,7 @@ home = "Home"
 description = "This is meta description"
 author = "Gabriele Angeletti"
 # Google Analitycs
-googleAnalitycsID = "Your ID"
+googleAnalitycsID = "UA-154852357-1"
 # Contact Information
 mobile = "+44 7803056685"
 email = "angeletti.gabriele@gmail.com"
