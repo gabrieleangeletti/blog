@@ -102,7 +102,7 @@ From this we can run `pipenv lock` to generate a `Pipfile.lock`:
 
 As you can see, `requests` is there, even if we didn't mention it anywhere in our `Pipfile`. That's because `Pipfile` handles recursive dependencies through the `Pipfile.lock` file. During deploy, when we run `pipenv install --deploy` to install dependencies, the correct version of `requests` will be installed, regardless of the latest version available in the public registry.
 
-* Note 1: in the above I used a couple of `pipenv` commmands, which is the [reference implementation](https://pipenv.readthedocs.io) for the `Pipfile` [specification](https://github.com/pypa/pipfile)
+* Note 1: in the above I used a couple of `pipenv` commands, which is the [reference implementation](https://pipenv.readthedocs.io) for the `Pipfile` [specification](https://github.com/pypa/pipfile)
 * Note 2: you need to add both `Pipfile` and `Pipfile.lock` to your repository, otherwise you will not be able to restore the same environment
 * Note 3: if you are currently using `requirements.txt` and want to migrate to `Pipfile`, here's an [handy guide](https://pipenv.readthedocs.io/en/latest/basics/#importing-from-requirements-txt) on how to do it
 
