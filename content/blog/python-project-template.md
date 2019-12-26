@@ -61,7 +61,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-b = {version = "==1.2.3"}
+ninja = {version = "==1.2.3"}
 ```
 
 From this we can run `pipenv lock` to generate a `Pipfile.lock`:
