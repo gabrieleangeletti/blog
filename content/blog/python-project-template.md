@@ -118,7 +118,7 @@ According to [this book](https://www.amazon.co.uk/Power-Habit-Why-What-Change/dp
 . That's why when programming, I want to use my time thinking on the important stuff, not on indentation, brackets, and so on. Everything that can be automated *must* be automated. I can see at least two major benefits of code formatting:
 
 * You cede control over formatting rules to the tool, which means you stop thinking about it
-* Since everyone is onboard, you stop discussing with your team whether the perfect line lenght should be 42, 79 or 110 (or at least you have just one big discussion at the beginning)
+* Since everyone is onboard, you stop discussing with your team whether the perfect line length should be 42, 79 or 110 (or at least you have just one big discussion at the beginning)
 
 [Black](https://github.com/psf/black) refers to itself as "the uncompromising Python code formatter", and it is my favourite formatting tool. It is super simple to use, just run:
 
