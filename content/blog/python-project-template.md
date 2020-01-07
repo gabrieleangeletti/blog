@@ -8,7 +8,7 @@ categories:
   - "Software Engineering"
 tags:
   - "Python"
-type: "featured"
+type: "post"
 ---
 
 I am a lazy person. Every time I find myself doing the same thing more than twice, I automate it. It requires effort at first, but it is worth it in the long run. Starting a new Python project is one of those things, and today I wanna share with you my blueprint for it. You can find the [full template on github](https://github.com/gabrieleangeletti/python-package-template). This setup is a good starting point for a small to medium-sized codebase and it does the common stuff:
