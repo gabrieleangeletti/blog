@@ -69,7 +69,7 @@ script:
   - ./test.sh
 ```
 
-In a nutshell: `language` says that the project uses Python, which will make Travis run inside a virtual envionment created on purpose for the build. `(python)` specifies which Python version(s) we want to test with. You can also put multiple versions in there, and the tests will be run against all of them. `(install)` tells Travis how to build the software. The default for Python if you omit this line is `pip install -r requirements.txt`, but since I have a custom setup script and I use `Pipfile` instead of `requirements.txt`, I had to override that config. `(script)` tells Travis what to run - in this case a custom script I made which runs linting, type-checking and unit-testing. If all of this runs correctly, it means that:
+In a nutshell: `language` says that the project uses Python, which will make Travis run inside a virtual environment created on purpose for the build. `(python)` specifies which Python version(s) we want to test with. You can also put multiple versions in there, and the tests will be run against all of them. `(install)` tells Travis how to build the software. The default for Python if you omit this line is `pip install -r requirements.txt`, but since I have a custom setup script and I use `Pipfile` instead of `requirements.txt`, I had to override that config. `(script)` tells Travis what to run - in this case a custom script I made which runs linting, type-checking and unit-testing. If all of this runs correctly, it means that:
 
 * The software still builds, as in I haven't introduced conflicts between dependencies or anything like that
 * My change doesn't break any existing code (this of course depends on the quality of the tests I write)
@@ -80,6 +80,6 @@ One small tip: when I first added the `.travis.yml` file, builds were not being 
 
 ### Final thoughts
 
-This article only scratches the surface of the things you can do with CI. The benefits of the approach can hardly be overstated, and it will make your team save an incredible amount of time, and at the same time increasing the quality of the software you deliver. I encourage you to read more about the topic. One pointer I can give you is [this great paper by Martin Fowler](https://martinfowler.com/articles/continuousIntegration.html), which is the best explaination of the technique I have ever come across. And if you are not using CI, I strongly recommend that you give it a try.
+This article only scratches the surface of the things you can do with CI. The benefits of the approach can hardly be overstated, and it will make your team save an incredible amount of time, and at the same time increasing the quality of the software you deliver. I encourage you to read more about the topic. One pointer I can give you is [this great paper by Martin Fowler](https://martinfowler.com/articles/continuousIntegration.html), which is the best explanation of the technique I have ever come across. And if you are not using CI, I strongly recommend that you give it a try.
 
 *Disclaimer*: *this article is not about any specific technology or approach that is actually in use at Lyft. It's just a small summary of what I have learned about CI while working there*.
